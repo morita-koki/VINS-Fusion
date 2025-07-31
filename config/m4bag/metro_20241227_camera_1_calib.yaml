@@ -1,6 +1,6 @@
 %YAML:1.0
 ---
-model_type: PINHOLE
+model_type: MEI
 camera_name: camera
 image_width: 1920
 image_height: 1280
