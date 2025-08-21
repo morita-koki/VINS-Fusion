@@ -1,6 +1,7 @@
 <launch>
 
-    <arg name="config_path" default="$(find vins)/../config/m4bag/metro_20241227.yaml" />
+    <!-- <arg name="config_path" default="$(find vins)/../config/m4bag/metro_20241227.yaml" /> -->
+    <arg name="config_path" default="$(find vins)/../config/m4bag/tunnel.yaml" />
     
     <!-- VINS node -->
     <node name="vins_node" pkg="vins" type="vins_node" args="$(arg config_path)" output="screen" />
